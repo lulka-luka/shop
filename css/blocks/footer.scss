@@ -1,0 +1,35 @@
+/*footer*/
+.footer {
+    background-color: #222224;
+    min-height: 79px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 79px;
+    align-items: center
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+.footer-logos {
+    display: flex;
+}
+.social-link {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.social-link:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
